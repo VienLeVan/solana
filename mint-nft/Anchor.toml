@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+min_nft = "FghtsPqR1ye98iGTS6DrVWcEPyk4GTnvjhuSiFQjFWuw"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/macminim1/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
